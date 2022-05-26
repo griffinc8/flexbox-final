@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+}
