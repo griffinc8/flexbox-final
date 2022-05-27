@@ -9,3 +9,32 @@
     list-style-type: none;
     display: flex;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 1000px;
+}
+
+.second,
+.third, 
+.fourth,
+.fifth {
+    flex-grow: 1;
+}
+
+.first, 
+.second {
+    background-color: #1F2937;
+    color: white;
+}
+
+
+.second .display {
+    display: flex;
+}
+
+.second .display #one {
+    font-size: 40px;
+}
