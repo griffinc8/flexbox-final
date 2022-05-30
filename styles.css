@@ -8,6 +8,7 @@
 .header ul {
     list-style-type: none;
     display: flex;
+    gap: 10px
 }
 
 body {
@@ -30,11 +31,190 @@ body {
     color: white;
 }
 
+.second {
+    display: flex;
+    align-items: center;
+}
+
+.second div {
+    flex-grow: 1;
+}
+
+.second #one {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.second #two {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.second .display div {
+    flex-shrink: 1;
+}
+
+/* third section */ 
+
+.third {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 1000px;
+}
+
+.second,
+.third, 
+.fourth,
+.fifth {
+    flex-grow: 1;
+}
+
+.first, 
+.second {
+    background-color: #1F2937;
+    color: white;
+}
+
+.second {
+    display: flex;
+    align-items: center     ;
+}
 
 .second .display {
     display: flex;
 }
 
 .second .display #one {
-    font-size: 40px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.second .display #two {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.second .display div {
+    flex-shrink: 1;
+}
+
+/* third section */ 
+
+.third {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    background-color: white;
+}
+
+
+.third .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.info {
+    max-width: 100px;  
+}
+
+.text {
+    text-align: center;
+}
+
+/* fourth section */
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    
+}
+
+.fourth div {
+    max-width: 400px;
+    color: #1F2937;
+    text-align: left;
+    font-size: 25px;
+}
+
+.fourth #name {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* fifth section */
+
+.fifth {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fifth .container {
+    display: flex;
+    color: white;
+    background-color: #3882f6;
+}
+
+button {
+    height: 100px;
+     width: 100px;
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;    
+     font-weight: 400;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
 }
